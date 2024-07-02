@@ -32,7 +32,7 @@ public interface MiniModuleDef {
     }
 
     @JsonIdentityInfo(generator = ObjectIdGenerators.StringIdGenerator.class)
-    @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, defaultImpl = TypeDefinition.class)
+    @JsonTypeInfo(use = JsonTypeInfo.Id.NAME)
     @JsonSubTypes({
             @Type(value = EnumTypeDefinition.class, name = "enum"),
             @Type(value = NumberTypeDefinition.class, name = "number")
