@@ -18,6 +18,7 @@
       }
     },
     {
+      "name": "cmd3",
       "typeDefinition": {
         "@type": "enum",
         "values": [
