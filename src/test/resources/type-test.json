@@ -1,0 +1,30 @@
+{
+  "name": "MinimalTypeTestingJson",
+  "commands": [
+    {
+      "name": "cmd1",
+      "typeDefinition": {
+        "@type": "number"
+      }
+    },
+    {
+      "name": "cmd2",
+      "typeDefinition": {
+        "@type": "enum",
+        "values": [
+          "foo",
+          "bar"
+        ]
+      }
+    },
+    {
+      "typeDefinition": {
+        "@type": "enum",
+        "values": [
+          "foo",
+          "bar"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name: MinimalTypeTestingYaml
+commands:
+-   name: cmd1
+    typeDefinition:
+        '@type': number
+-   name: cmd2
+    typeDefinition: &x
+        '@type': enum
+        values:
+        - foo
+        - bar
+-   name: cmd3
+    typeDefinition: *x
